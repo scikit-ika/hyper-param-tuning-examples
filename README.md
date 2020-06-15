@@ -4,7 +4,7 @@ This repository contains examples for the hyper-parameter tuning modules of the 
 ## ARF number of trees tuning
 Here is a workflow to use the modules aiming to tune the number of trees in an Adaptive Random Forest :
 
-![treesWorkflow](https://github.com/scikit-ika/hyper-param-tuning-examples/blob/master/images/workflow_ARF_trees_tuning.png?&raw=true)
+![treesWorkflow](https://github.com/scikit-ika/hyper-param-tuning-examples/blob/master/images/workflow_ARF_ntrees_tuning.png?&raw=true)
 
 The files can be found at : 
 * hyper-param-tuning-examples/examples_tuning/knowledge_generation/script_knowledge_trees.py
