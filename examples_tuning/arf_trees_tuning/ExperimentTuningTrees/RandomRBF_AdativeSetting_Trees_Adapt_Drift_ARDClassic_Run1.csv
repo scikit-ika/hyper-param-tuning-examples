@@ -1,0 +1,7 @@
+# TEST CONFIGURATION BEGIN
+# StreamGeneratorRedund(base_stream=RandomRBFGeneratorRedund(model_random_state=None, n_centroids=50, n_classes=2, n_features=30, noise_percentage=0.0, perc_redund_feature=None, sample_random_state=None), n_drifts=10, n_instances=10000, random_state=None)
+# [ARF] AdaptiveRandomForest(binary_split=False, disable_weighted_vote=False, drift_detection_method=ADWIN(delta=0.001), grace_period=10, lambda_value=6, leaf_prediction='nba', max_byte_size=33554432, max_features='auto', memory_estimate_period=2000000, n_estimators=10, nb_threshold=0, no_preprune=False, nominal_attributes=None, performance_metric='acc', random_state=None, remove_poor_atts=False, split_confidence=0.1, split_criterion='info_gain', stop_mem_management=False, tie_threshold=0.005, warning_detection_method=ADWIN(delta=0.01))
+# EvaluatePrequentialAndAdaptTreesARF(batch_size=1, data_points_for_classification=False, max_samples=10000, max_time=inf, metaKB={0.0: 60, 0.1: 30, 0.2: 30, 0.3: 30, 0.4: 60, 0.5: 70, 0.6: 60, 0.7: 30, 0.8: 30, 0.9: 30}, metrics=['accuracy', 'kappa', 'running_time', 'ram_hours'], n_wait=500, output_file='RandomRBF_AdativeSetting_Trees_Adapt_Drift_ARDClassic_Run1.csv', pretrain_size=200, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[ARF],current_acc_[ARF],mean_kappa_[ARF],current_kappa_[ARF],training_time_[ARF],testing_time_[ARF],total_running_time_[ARF],ram_hours_[ARF]
+499,0.756667,0.756667,0.506089,0.506089,33.003519,0.997944,34.001463,0.000023
