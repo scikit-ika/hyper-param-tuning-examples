@@ -7,6 +7,6 @@ Here is a workflow to use the modules aiming to tune the number of trees in an A
 ![treesWorkflow](https://github.com/scikit-ika/hyper-param-tuning-examples/blob/master/images/workflow_ARF_ntrees_tuning.png?&raw=true)
 
 The files can be found at : 
-* hyper-param-tuning-examples/examples_tuning/knowledge_generation/script_knowledge_trees.py
-* hyper-param-tuning-examples/examples_tuning/pareto_knowledge/script_build_pareto_trees.py
-* hyper-param-tuning-examples/examples_tuning/arf_trees_tuning//script_experiments_tuning_trees_arf.py
+* https://github.com/scikit-ika/hyper-param-tuning-examples/examples_tuning/knowledge_generation/script_knowledge_trees.py
+* https://github.com/scikit-ika/hyper-param-tuning-examples/examples_tuning/pareto_knowledge/script_build_pareto_trees.py
+* https://github.com/scikit-ika/hyper-param-tuning-examples/examples_tuning/arf_trees_tuning//script_experiments_tuning_trees_arf.py
