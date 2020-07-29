@@ -7,7 +7,7 @@ Created on Mon Jun 15 16:48:09 2020
 
 import os
 
-from skika.hyper_parameter_tuning.build_pareto_knwledge_trees import buildTreesKnowledge
+from skika.hyper_parameter_tuning.trees_arf.build_pareto_knowledge_trees import buildTreesKnowledge
 
 """
  Script to generate pareto fronts from files generated with the knowledge script. 

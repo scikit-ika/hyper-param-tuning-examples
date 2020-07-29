@@ -1,12 +1,11 @@
 # Imports
 import os
 
-
+from skmultiflow.meta import AdaptiveRandomForest
 from skmultiflow.drift_detection import ADWIN
 from joblib import Parallel, delayed
 
-from skika.data.adaptive_random_forests_modif import AdaptiveRandomForest
-from skika.data.evaluate_prequential_and_adapt import EvaluatePrequentialAndAdapt
+from skika.hyper_parameter_tuning.trees_arf.evaluate_prequential_and_adapt import EvaluatePrequentialAndAdaptTreesARF
 from skika.data.random_rbf_generator_redund import RandomRBFGeneratorRedund
 
 
@@ -31,7 +30,7 @@ def EvaluateModels(models_list, models_names, data_stream) :
         file_name = new_dir_path+'\\'+data_stream[1]+'.csv'
 
     # Setup the evaluator
-    evaluator = EvaluatePrequentialAndAdapt(metrics=['accuracy','kappa','running_time','ram_hours'],
+    evaluator = EvaluatePrequentialAndAdaptTreesARF(metrics=['accuracy','kappa','running_time','ram_hours'],
                                     show_plot=False,
                                     pretrain_size=200,
                                     max_samples=2000,

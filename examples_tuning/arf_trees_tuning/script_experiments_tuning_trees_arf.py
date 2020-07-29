@@ -7,7 +7,7 @@ from skmultiflow.drift_detection import ADWIN
 from skika.data.random_rbf_generator_redund import RandomRBFGeneratorRedund
 from skika.data.hyper_plane_generator_redund import HyperplaneGeneratorRedund
 from skika.data.stream_generator_redundancy_drift import StreamGeneratorRedund
-from skika.hyper_parameter_tuning.evaluate_prequential_and_adapt import EvaluatePrequentialAndAdaptTreesARF
+from skika.hyper_parameter_tuning.trees_arf.evaluate_prequential_and_adapt import EvaluatePrequentialAndAdaptTreesARF
 
 
 from joblib import Parallel, delayed
