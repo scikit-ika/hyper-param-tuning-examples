@@ -22,7 +22,7 @@ from joblib import Parallel, delayed
 
 from tornadomaster.drift_detection.seq_drift2 import SeqDrift2ChangeDetector
 
-from skika.data.bernoulliStream import BernoulliStream
+from skika.data.bernoulli_stream import BernoulliStream
 from skika.hyper_parameter_tuning.drift_detectors.evaluate_drift_detection_knowledge import evaluateDriftDetection
 
 # Function to launch in parallel
